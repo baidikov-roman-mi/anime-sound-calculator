@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+   
+    
+    <div class="calculator">
+        
+        <div class="input" id="input"></div>
+        <div class="buttons">
+            <div class="operators">
+                <div class="sound" onclick="plusClick()">+</div>
+                <div class="sound" onclick="minusClick()">-</div>
+                <div class="sound"onclick="multiplyClick()" >&times;</div>
+                <div class="sound" onclick="divideClick()">&divide;</div>
+            </div>
+            <div class="row-buttons-left">
+                <div class="leftPanel">
+                    <div class="numbers">
+                        <div class="sound" onclick="sevenClick()">7</div>
+                        <div class="sound" onclick="eightClick()">8</div>
+                        <div class="sound" onclick="nineClick()">9</div>
+                    </div>
+                    <div class="numbers">
+                        <div class="sound" onclick="fourClick()">4</div>
+                        <div class="sound" onclick="fiveClick()">5</div>
+                        <div class="sound" onclick="sixClick()">6</div>
+                    </div>
+                    <div class="numbers">
+                        <div class="sound" onclick="oneClick()">1</div>
+                        <div class="sound" onclick="twoClick()">2</div>
+                        <div class="sound" onclick="threeClick()">3</div>
+                    </div>
+                    <div class="numbers">
+                        <div class="sound" onclick="zeroClick()">0</div>
+                        <div class="sound" onclick="dotClick()">.</div>
+                        <div id="clear" class="sound" onclick="clearClick()">C</div>
+                    </div>
+                </div>
+                <div class="equal sound" id="result" onclick="resultClick()">=</div>
+            </div>
+        </div>
+    </div>
+    <!-- <audio>
+        <source id="audio0" src="./music/0.mp3" type="audio/mpeg">
+        <source id="audio1" src="./music/1.mp3" type="audio/mpeg">
+        <source id="audio2" src="./music/2.mp3" type="audio/mpeg">
+        <source id="audio3" src="./music/3.mp3" type="audio/mpeg">
+        <source id="audio4" src="./music/4.mp3" type="audio/mpeg">
+        <source id="audio5" src="./music/5.mp3" type="audio/mpeg">
+        <source id="audio6" src="./music/6.mp3" type="audio/mpeg">
+        <source id="audio7" src="./music/7.mp3" type="audio/mpeg">
+        <source id="audio8" src="./music/8.mp3" type="audio/mpeg">
+        <source id="audio9" src="./music/9.mp3" type="audio/mpeg">
+        <source id="audio10" src="./music/dot.mp3" type="audio/mpeg">
+        <source id="audio11" src="./music/result.mp3" type="audio/mpeg">
+        <source id="audio12" src="./music/plus.mp3" type="audio/mpeg">
+        <source id="audio13" src="./music/minus.mp3" type="audio/mpeg">
+        <source id="audio14" src="./music/multiply.mp3" type="audio/mpeg">
+        <source id="audio15" src="./music/divide.mp3" type="audio/mpeg">
+        <source id="audio16" src="./music/clear.mp3" type="audio/mpeg">
+    </audio> -->
+    </div> 
+    
+    <script src="./js/script.js" type="text/javascript"></script>
+    <script src="./js/scriptSounds.js" type="text/javascript"></script> 
+
+</body>
+
+
+</html>
